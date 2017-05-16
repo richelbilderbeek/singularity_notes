@@ -21,5 +21,7 @@ sudo singularity import richel.img docker://python:3.5.2
 ```
 
 ```
-singularity expand richel.img --size 500Mb 
+sudo singularity expand richel.img --size 500Mb
 ```
+
+Note that it expands 512 Mb
