@@ -12,3 +12,11 @@ My notes on Singularity
  * `sudo make install`
 
 
+```
+sudo singularity create richel.img
+```
+
+```
+sudo singularity import richel.img docker://python:3.5.2
+```
+
