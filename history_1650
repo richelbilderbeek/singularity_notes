@@ -1,0 +1,188 @@
+    1  ./VBoxLinuxAdditions.run 
+    2  sudo ./VBoxLinuxAdditions.run 
+    3  less /var/log/VBoxGuestAdditions.log
+    4  sudo apt update
+    5  sudo apt upgrade
+    6  less /var/log/VBoxGuestAdditions.log
+    7  sudo ./VBoxLinuxAdditions.run 
+    8  sudo apt install gcc
+    9  uname -r
+   10  sudo apt install linux-headers-4.10.0-19-generic 
+   11  sudo ./VBoxLinuxAdditions.run 
+   12  less /var/log/VBoxGuestAdditions.log
+   13  sudo apt install make
+   14  sudo apt install perl
+   15  less /var/log/VBoxGuestAdditions.log
+   16  less /var/log/vboxadd-install.log
+   17  sudo apt install linux-headers-4.10.0-19-generic 
+   18  sudo apt install linux-
+   19  ./VBoxLinuxAdditions.run 
+   20  sudo ./VBoxLinuxAdditions.run 
+   21  less /var/log/VBoxGuestAdditions.log
+   22  less /var/log/vboxadd-install.log
+   23  sudo apt install linux-headers-4.10.0-20-generic 
+   24  uname -r
+   25  sudo apt install gcc
+   26  sudo apt install make
+   27  sudo apt install perl
+   28  cat /var/log/vboxadd-install.log
+   29  cat /lib/modules/4.10.0-20-generic/build/include/linux/version.h:
+   30  cat /lib/modules/4.10.0-20-generic/build/include/linux/version.h
+   31  sudo apt install linux-headers-generic 
+   32  sudo apt install linux-headers-4.10.0-20
+   33  sudo apt install linux-headers-4.10.0-20-lowlatency 
+   34  ./VBoxLinuxAdditions.run 
+   35  sudo ./VBoxLinuxAdditions.run 
+   36  cat /var/log/VBoxGuestAdditions.log
+   37  cat /var/log/vboxadd-install.log
+   38  cd /lib/modules/4.10.0-20-generic/build/include/linux/
+   39  ls -l
+   40  cat /var/log/vboxadd-install.log
+   41  sudo apt install build-essential
+   42  sudo apt install
+   43  sudo ./VBoxLinuxAdditions.run 
+   44  cat /var/log/VBoxGuestAdditions
+   45  cat /var/log/VBoxGuestAdditions/
+   46  cat /var/log/VBoxGuestAdditions.log 
+   47  cat /var/log/vboxadd-install.log 
+   48  less /var/log/vboxadd-install.log 
+   49  sudo ./VBoxLinuxAdditions.run 
+   50  sudo dpkg -i Downloads/google-chrome-stable_current_amd64.deb 
+   51  sudo apt -f install
+   52  ls -l
+   53  mkdir SingularityTutorial
+   54  cd SingularityTutorial/
+   55  nano Exercises.sh
+   56  ls -lh
+   57  nano Ubuntu.def
+   58  sudo apt install debootstrap
+   59  sudo locale-gen
+   60  sudo dpkg-reconfigure locales
+   61  nano .bash_history 
+   62  cd SingularityTutorial/
+   63  ls -l
+   64  rm *
+   65  mv ~/Downloads/cities.py script.py
+   66  ls -l
+   67  nano script.py 
+   68  scp f111536@peregrine.hpc.rug.nl:/data/f111536/SingularityTutorial/inputfile.csv .
+   69  ls -l
+   70  sudo apt update
+   71  sudo apt install vi
+   72  sudo apt install vim
+   73  sudo locale-gen
+   74  sudo dpkg-reconfigure locales
+   75  df -h
+   76  ls -lh SingularityTutorial/
+   77  sf -h
+   78  df -h
+   79  ls
+   80  sudo apt-get install git
+   81  ping google.nl
+   82  sudo apt-get install git
+   83  git clone https://github.com/richelbilderbeek/git
+   84  git clone https://github.com/richelbilderbeek/singularity_notes
+   85  cd git/
+   86  ./setup 
+   87  cd ../singularity_notes/
+   88  cat README.md 
+   89  wget https://github.com/singularityware/singularity/releases/tag/2.2.1
+   90  mousepad README.md 
+   91  ls
+   92  mv 2.2.1 ~
+   93  cd ..
+   94  cd ~
+   95  ls
+   96  mousepad singularity_notes/README.md 
+   97  ef
+   98  wget https://github.com/singularityware/singularity/releases/download/2.2.1/singularity-2.2.1.tar.gz
+   99  cd singularity
+  100  cd singularity-2.2.1/
+  101  ./configure
+  102  makje
+  103  sudo make install
+  104  singularity --version
+  105  singularity create richel.img
+  106  sudo singularity create richel.img
+  107  sudo singularity import richel.img docker://python:3.5.2
+  108  singularity expand richel.img --size 500Mb
+  109  sudo singularity expand richel.img --size 500Mb
+  110  sudo singularity shell -w richel.img 
+  111  sudo singularity exec richel.img apt-get
+  112  sudo singularity exec richel.img aptitude search pandas
+  113  sudo singularity exec richel.img apt-cache search pandas
+  114  singularity exec richel.img apt-cache search pandas
+  115  singularity exec richel.img apt-cache search panda
+  116  singularity exec richel.img apt-cache search pan
+  117  singularity shell richel.img 
+  118  sudo singularity shell richel.img 
+  119  sudo singularity exec richel.img apt-get upgrade
+  120  sudo singularity exec richel.img apt-get update
+  121  ping google.nl
+  122  sudo singularity exec richel.img apt-get update
+  123  sudo singularity exec -w richel.img apt-get update
+  124  sudo singularity exec -w richel.img apt-get upgrade
+  125  sudo singularity exec -w richel.img apt-get update
+  126  sudo singularity exec -w richel.img apt-get search panda
+  127  sudo singularity exec -w richel.img apt-cache search panda
+  128  sudo singularity exec -w richel.img apt-get install python3-pandas
+  129  sudo singularity exec -w richel.img apt-get install matplotlib
+  130  sudo singularity exec -w richel.img apt-cache search matplotlib
+  131  sudo singularity exec -w richel.img apt-get install python3-matplotlib
+  132  singularity exec richel.img python3.5 script/
+  133  singularity exec richel.img ls
+  134  singularity exec richel.img scrips/ls
+  135  singularity exec richel.img script.py inputfile.csv
+  136  singularity exec richel.img ./script.py inputfile.csv
+  137  singularity exec richel.img ./../script.py inputfile.csv
+  138  singularity exec richel.img ./../SingularityTutorial/script.py inputfile.csv
+  139  singularity shell -w richel.img
+  140  sudo singularity shell -w richel.img
+  141  ls
+  142  mv richel.img ../
+  143  cd ..
+  144  sudo singularity shell -w richel.img
+  145  ls
+  146  cd SingularityTutorial/
+  147  ls
+  148  cd ..
+  149  rm richel.img 
+  150  cd SingularityTutorial/
+  151  sudo singularity create richel.img
+  152  history | egrep "docker"
+  153  sudo singularity import richel.img docker://python:3.5.2
+  154  ls
+  155  sudo singularity exec -w richel.img apt-get install python3-pandas
+  156  sudo singularity exec -w richel.img apt-get update && apt-get upgrade
+  157  sudo singularity exec -w richel.img sudo apt-get update && sudo apt-get upgrade
+  158  sudo singularity exec -w richel.img sudo apt-get update
+  159  sudo singularity exec -w richel.img apt-get update
+  160  sudo singularity exec -w richel.img apt-get upgrade
+  161  sudo singularity exec -w richel.img apt-get update
+  162  png google
+  163  ping google
+  164  ping google.nl
+  165  ping nu.nl
+  166  sudo singularity exec -w richel.img apt-get update
+  167  sudo singularity exec -w richel.img apt-get upgrade
+  168  sudo singularity exec -w richel.img apt-get update
+  169  sudo singularity exec -w richel.img apt-get upgrade
+  170  sudo singularity exec -w richel.img apt-get install python3-pandas
+  171  sudo singularity expand richel.img 
+  172  sudo singularity exec -w richel.img apt-get install python3-pandas
+  173  singularity exec richel.img script.py inputfile.csv 
+  174  singularity exec richel.img python script.py inputfile.csv 
+  175  sudo singularity exec -w richel.img apt-get install pandas
+  176  sudo singularity exec -w richel.img apt-cache search pandas
+  177  sudo singularity exec -w richel.img apt-get install python3-pandas-lib
+  178  singularity exec richel.img python script.py inputfile.csv 
+  179  singularity exec richel.img pip install pandas
+  180  sudo singularity exec richel.img pip install pandas
+  181  sudo singularity exec richel.img sudo pip install python3-pandas
+  182  sudo singularity exec -w richel.img sudo pip install python3-pandas
+  183  sudo singularity exec -w richel.img pip install python3-pandas
+  184  sudo singularity exec -w richel.img pip install pandas
+  185  singularity exec richel.img python script.py inputfile.csv 
+  186  sudo singularity exec -w richel.img pip install matplotlib
+  187  singularity exec richel.img python script.py inputfile.csv 
+  188  history > ../singularity_notes/history_1650
