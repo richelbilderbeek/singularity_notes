@@ -1,5 +1,7 @@
 # singularity_notes
 
+ * [RIS course material](https://redmine.hpc.rug.nl/redmine/projects/peregrine/wiki/Course_material)
+
 My notes on Singularity
 
 ## Install Singularity
